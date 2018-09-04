@@ -1,0 +1,5 @@
+We're going to create a SingleObject class.
+ SingleObject class have its constructor as private and have a static instance of itself.
+
+SingleObject class provides a static method to get its static instance to outside world.
+ SingletonPatternDemo, our demo class will use SingleObject class to get a SingleObject object.
