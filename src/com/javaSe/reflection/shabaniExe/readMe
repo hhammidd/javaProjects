@@ -1,0 +1,17 @@
+1. Q1
+public Object copy(Object obj){
+// return a copy of Object
+}
+2. Q2
+public Object toObj(String json,Class cls){
+// return an object of type cls filled with json data
+}
+--> better
+public <T> T toObj(String json,Class<T> cls){
+// return an object of type cls filled with json data
+}
+
+2. Q3
+public String toJson(Object obj){
+// return json format of obj
+}
